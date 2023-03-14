@@ -7,7 +7,13 @@
 	<test thread-count="5" name="TTW Test Cases">
 		<classes>
 			<class name="com.pc360.ttw.tests.LaunchApp_Test"/>
-			
+			<class name="com.pc360.ttw.tests.Home_Test"/>
+			<class name="com.pc360.ttw.tests.PremiumContent_Test"/>
+			<class name="com.pc360.ttw.tests.CollegeTennisRecruitment_Test"/>
+			<class name="com.pc360.ttw.tests.ExpertsConsultation_Test"/>
+			<class name="com.pc360.ttw.tests.AboutUs_Test"/>
+			<class name="com.pc360.ttw.tests.Blogs_Test"/>
+			<class name="com.pc360.ttw.tests.ContactUs_Test"/>
 		</classes>
 	</test>	
 </suite> 

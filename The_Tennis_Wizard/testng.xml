@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="The Tennis Wizard">
+	<listeners>
+		<listener class-name="com.pc360.ttw.utility.ListenerTest"/>
+	</listeners>
+	<test thread-count="5" name="TTW Test Cases">
+		<classes>
+			<class name="com.pc360.ttw.tests.LaunchApp_Test"/>
+			
+		</classes>
+	</test>	
+</suite> 
